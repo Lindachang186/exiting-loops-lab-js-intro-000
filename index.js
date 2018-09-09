@@ -11,6 +11,6 @@ function keepGoing(array, changeValue, skipValue) {
     for(let i = 0; i < array.length; i++) {
       if(array[i] !== skipValue ) {
         array[i] = changeValue
-      } else return array 
+      } else return array
     }
 }
